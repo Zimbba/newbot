@@ -4,6 +4,8 @@ from modules.technical_analysis import analyze_technical_indicators, make_trade_
 from modules.market_data import get_market_data
 from modules.trade_execution import execute_trade_auto
 from modules.alerts import send_telegram_alert
+from modules.email_alerts import send_email_alert
+
 
 # Interface Gráfica
 st.title("Bot de Trading Integrado 🚀")
